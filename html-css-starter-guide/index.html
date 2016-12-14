@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Starter Guide</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <link rel="stylesheet" href="/assets/normalize.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headercontent">
+            <h1>HTML & CSS Starter Guide</h1>
+            <h4>Udacity Resources</h4>
+        </div>
+    </header>
+
+    <div class="mainwrapper">
+
+        <aside>
+            <div class="sidebar section">
+                <h3 class="heading">Menu</h3>
+                <ul class="smalltext">
+                    <li><a href="#1">1. The Text Editor</a></li>
+                    <li><a href="#2">2. Try creating your first web page</a></li>
+                    <li><a href="#3">3. How the World Wide Web works</a></li>
+                    <li><a href="#4">4. Introduction to HTML</a></li>
+                    <li><a href="#5">5. HTML Elements</a></li>
+                    <li><a href="#6">6. HTML Tags</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="articlecontent">
+            <p class="first section">
+                In this guide we will take you through all the steps required to build your own web page, as well as give you an introduction to HTML and CSS Styling.
+            </p>
+            <!-- First Section -->
+            <div class="section">
+                <h2 id="1" class="heading">1. The Text Editor</h2>
+                <p>
+                    In order to learn the basics of HTML and CSS it is useful to try out some of the examples by following along. To do this you will need to use a text editor. While you could use notepad, or something similarly basic, it is useful to use a text editor that
+                    is specifically designed for coding.
+                </p>
+                <p>
+                    A text editor that is designed for coding will have many additional features that help write, format and generally speed up code generation. One of the most important feature is syntax highlighting, as this adds different colors to various parts of the
+                    text to make it easier to read.
+                </p>
+                <p>
+                    There are several choices when it comes to text editors, but there are two that we specifically recommend:
+                </p>
+                <h3>Atom</h3>
+                <div class="columnswrapper">
+                    <div class="column1">
+                        <p>
+                            Atom is a relative newcomer as a text editor, but over the last year has made some significant improvements that has boosted its popularity.
+                        </p>
+                        <p>
+                            It is created by Github, and can be <a href="https://atom.io/" target="_blank">downloaded here</a>.
+                        </p>
+                    </div>
+                    <div class="column2">
+                        <p><img src="/images/atom.jpg" alt="Atom Text Editor"></p>
+                    </div>
+                </div>
+                <div class="clearboth"></div>
+                <h3>Sublime Text</h3>
+                <div class="columnswrapper">
+                    <div class="column1">
+                        <p>
+                            Sublime is one of the most common text editors used by professional developers. It has a range of great features that significantly speed up development time.
+                        </p>
+                        <p>
+                            It can be <a href="https://www.sublimetext.com/" target="_blank">downloaded here</a>.
+                        </p>
+                    </div>
+                    <div class="column2">
+                        <p><img src="/images/sublime.jpg" alt="Sublime Text Editor"></p>
+                    </div>
+                </div>
+                <div class="clearboth"></div>
+                <h3>Codepen</h3>
+                <p>
+                    Another alternative that you may find useful, at least in these early days of coding, is <a href="http://codepen.io/">Codepen</a>.
+                </p>
+                <p>
+                    With Codepen you can easily add your code into a browser window, and see in realtime the results. However, if you want to eventually code like a professional, we highly recommend getting used to a decent text editor, such as Atom or Sublime.
+                </p>
+                <p data-heig2ht="265" data-theme-id="dark" data-slug-hash="ORRVdL" data-default-tab="html,result" data-user="thewebmaster" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/thewebmaster/pen/ORRVdL/">Codepen</a> by Jonathan Griffin (<a href="http://codepen.io/thewebmaster">@thewebmaster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <p>
+                    Try changing the code in the above Codepen embed to see how it affects the live preview on the right.
+                </p>
+            </div>
+            <!-- Second Section -->
+            <div class="section">
+                <h2 id="2" class="heading">2. Try creating your first web page</h2>
+                <p>
+                    Creating your first web page is extremely easy. Open up your chosen text editor (Atom is our preferred choice) and type in the following sentence:
+                </p>
+                <p data-height="128" data-theme-id="25821" data-slug-hash="kkZzGA" data-default-tab="html" data-user="thewebmaster" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/thewebmaster/pen/kkZzGA/">My first HTML</a> by Jonathan Griffin (<a href="http://codepen.io/thewebmaster">@thewebmaster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <p>
+                    Once you have types it into the text editor, save it as "index.html" and then open it with your web browser. The "index.html" file is used as a default page for a website if no other page is specified.
+                </p>
+                <h3>What do you notice?</h3>
+                <p><img src="/images/first-web-page.jpg" alt="First web page"></p>
+                <p>
+                    Not only have you created your first web page, but you have also added some formatting to some of the text. Congratulations.
+                </p>
+                <p>
+                    We have created a version of this page in Codepen. Try altering the text below, and see what happens in the live preview:
+                </p>
+                <p data-height="300" data-theme-id="dark" data-slug-hash="gwLpXB" data-default-tab="html,result" data-user="thewebmaster" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/thewebmaster/pen/gwLpXB/">gwLpXB</a> by Jonathan Griffin (<a href="http://codepen.io/thewebmaster">@thewebmaster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <P>
+                    Ok, let's not get ahead of ourselves. Now we start at the beginning and go through all the basics in a little more detail.
+                </p>
+            </div>
+            <!-- Third Section -->
+            <div class="section">
+                <h2 id="3" class="heading">3. Before we start: How the World Wide Web works</h2>
+                <p>
+                    Before moving on to the different HTML tags, Elements and other attributes that together form the inner workings of the web page, it is useful to have a very basic understanding of how the world wide web, or WWW, works.
+                </p>
+                <p>
+                    The web is really just a collection of files saved on computers, or web servers. This includes movies, music, videos, and /images, but the main file used to display the web page is HTML. HTML is the acronym for Hypertext Markup Languange, and is the file
+                    that web browsers use to interprete the information into a web page.
+                </p>
+                <p>
+                    The web is very complex, and has a vast number of parts that all contribute to make it work. However, in its simplest form it consists of the following:
+                </p>
+                <ul>
+                    <li>The client - Your computer.</li>
+                    <li>The Internet - This includes the Domain Name System, Network and HTTP, or Hypertext Transfer Protocol.</li>
+                    <li>Web Servers - These are powerful computers that are stored in a data center that are always online and connected to the Internet.</li>
+                </ul>
+                <p>
+                    To gain an idea on how all these parts work together, let's imagine the process that takes place when a web page is loaded:
+                </p>
+                <ol>
+                    <li>You enter a website address in your web browser.</li>
+                    <li>Your computer sends a request to the web server the web page is hosted on.</li>
+                    <li>The request is sent in a "packet", which can be described as a virtual parcel containing both the IP Address of your computer, and the IP address of the web server the page is hosted on.</li>
+                    <li>Special computers called "routers" and devices called "switches" direct thge packet from your computer to the web server.</li>
+                    <li>The packets travel by a variety of means, including undersea fibre optic cables, underground cables, and even satellites.</li>
+                    <li>Once the web server receives the packet, it reads the request made by your computer. For example, a request for a web page and any associated files and /images.</li>
+                    <li>A web page, along with all the associated /images may consists of hundreds or even thousands of packets. All of these packets will contain information about their origin and destination, as well as how they should be put back together.</li>
+                    <li>The web server will send the response, consisting of the aforementioned packets by the fastest possible route. In some cases, the packets may take different routes and arrive in a different order from which they were sent.</li>
+                    <li>When your computer receives a response from your web server, it puts all the packets together and displays the web page.</li>
+                    <li>This whole process can take just a fraction of a second.</li>
+                </ol>
+            </div>
+
+            <!-- Fourth Section -->
+            <div class="section">
+                <h2 id="4" class="heading">4. Introduction to HTML</h2>
+                <p>
+                    HTML, or HyperText Markup Language, is comprised of the following:
+                </p>
+                <ul>
+                    <li><strong>Text content</strong> - What the user sees.</li>
+                    <li><strong>Markup</strong> - How the user sees the text content.</li>
+                    <li><strong>References to other files</strong> - HTML can reference other documents or dfiles, such as /images, videos, stylesheets, and javascript.</li>
+                    <li><strong>Links</strong> - Links to other pages.</li>
+                </ul>
+                <h3>Example HTML page</h3>
+                <p>To get a basic overview of HTML it is useful to set out in code a very basic page:</p>
+                <p data-height="305" data-theme-id="25821" data-slug-hash="qaxKwV" data-default-tab="html" data-user="thewebmaster" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/thewebmaster/pen/qaxKwV/">Basic HTML Page</a> by Jonathan Griffin (<a href="http://codepen.io/thewebmaster">@thewebmaster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <p>
+                    Let's go through the example:
+                </p>
+                <ul>
+                    <li><strong>&lt;!DOCTYPE html&gt;</strong> - This declares that the document is to be interpreted as using HTML5.</li>
+                    <li><strong>&lt;html&gt;</strong> - This denotes the HTML document.</li>
+                    <li><strong>&lt;head&gt;</strong> - This provides information about the HTML document.</li>
+                    <li><strong>&lt;title&gt;</strong> - This is the browser title for the HTML document.</li>
+                    <li><strong>&lt;body&gt;</strong> - This is the visible part of the HTML that displays in the browser.</li>
+                    <li><strong>&lt;h1&gt;</strong> - This is the main visible heading.</li>
+                    <li><strong>&lt;p&gt;</strong> - This is a paragraph.</li>
+                </ul>
+                <p>
+                    Now we have looked at the basic structure of a HTML page, we must now look at "Elements","Tags" and "Attributes" in more detail.
+                </p>
+                <p>
+                    An element is enclosed by tags, which are "Angle Brackets", with the closing "Angle Bracket" beginning with a forward slash. These tags may contain attributes, which is essentially additional information that can be added to an element that can affect
+                    its behaviour.
+                </p>
+                <p>
+                    We have dealt with Elements, Tags and Attributes in more detail below.
+                </p>
+            </div>
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Elements</h2>
+                <p>
+                    A HTML element usually, contains a start tag and an end tag. The element is the content contained within these tags. Some HTML elements are classed as empty, and as such has no end tag.
+                </p>
+                <p>
+                    You can see a table showing the start and end tags of a few popular elements below:
+                </p>
+                <p>
+
+                </p>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>Start Tag</th>
+                            <th>Content</th>
+                            <th>End Tag</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Paragraph content.</td>
+                            <td>&lt;/p&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;h1&gt;</td>
+                            <td>Heading content.</td>
+                            <td>&lt;/h1&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td>Division content.</td>
+                            <td>&lt;/div&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br /&gt;</td>
+                            <td>This is an empty element.</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    Elements can be nested within each other. So, for example a div element might contain headings and paragraph elements.
+                </p>
+                <p>
+                    Let us take a look at some of the most common HTML elements:
+                </p>
+                <p data-height="550" data-theme-id="dark" data-slug-hash="KgWwWv" data-default-tab="html,result" data-user="thewebmaster" data-embed-version="2" data-editable="true" class="codepen">See the Pen <a href="http://codepen.io/thewebmaster/pen/KgWwWv/">KgWwWv</a> by Jonathan Griffin (<a href="http://codepen.io/thewebmaster">@thewebmaster</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <p>Let us take a look at these HTML elements in a little more detail:</p>
+                <ul>
+                    <li>
+                        <strong>&lt;h1&gt;Heading 1&lt;/h1&gt;</strong> - H1 headings should be used for the main heading of the page. It good SEO practice to only use one H1 tag per page.
+                    </li>
+                    <li>
+                        <strong>&lt;p&gt;Paragraph&lt;/p&gt;</strong> - Paragraphs should be used to seperate blocks of text into ideas or points. This makes the text easier to read by inserting natural pauses on the page.
+                    </li>
+                    <li>
+                        <strong>&lt;em&gt;Italic&lt;/em&gt;</strong> - Italics should be used for emphasis. It also provides a signal to search engines that the words in italics are more significant, so if used carefully may influence search engine rankings,
+                        but only by a very small amount.
+                    </li>
+                    <li>
+                        <strong>&lt;strong&gt;Bold&lt;/strong&gt;</strong> - You can highlight key words or phrases by making them "bold". Historically, the &lt;b&gt; tags were used to bolden text, but modern standards use &lt;strong&gt;. Search Engines
+                        understand the latter tag, and it can when used correctly provide a small SEO benefit.
+                    </li>
+                    <li>
+                        <strong>&lt;a&gt;Anchor&lt;/a&gt;</strong> - The Anchor tag defines a hyperlink that can be used to link from one page to another. This relies on the use of attributes which we shall comment on later in the article.
+                    </li>
+                    <li>
+                        <strong>&lt;ul&gt;Unordered List&lt;/ul&gt;</strong> - This denotes an unordered list. It works in combination with a list item to create a bullet list.
+                    </li>
+                    <li>
+                        <strong>&lt;ol&gt;Ordered List&lt;/ol&gt;</strong> - This denotes an ordered list. It works in combination with a list item to create a numbered list.
+                    </li>
+                    <li>
+                        <strong>&lt;li&gt;List Item&lt;/li&gt;</strong> - This is a list item that works with either an ordered list or unordered list.
+                    </li>
+                    <li>
+                        <strong>&lt;blockquote&gt;Blockquote&lt;/blockquote&gt;</strong> - T
+                    </li>
+                    <li>
+                        <strong>&lt;div&gt;Division&lt;/div&gt;</strong> - T
+                    </li>
+                    <li>
+                        <strong>&lt;img&gt;Image</strong> - T
+                    </li>
+                    <li>
+                        <strong>&lt;br&gt;Break</strong> - T
+                    </li>
+                </ul>
+                <h3>Inline vs Block Elements</h3>
+                <p>
+                    Every HTML element has a default display type, which for the majority of different elements is either inline, or block.
+                </p>
+                <h4>Block Elements</h4>
+                <p>
+                    Block-level elements start on a new line, and will take up the full width of the container. Examples of block-level elements are as follows:
+                </p>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- Sixth Section -->
+            <div class="section">
+                <h2 id="6" class="heading">6. HTML Attributes</h2>
+            </div>
+
+
+
+
+
+
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Attributes</h2>
+            </div>
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Tags</h2>
+            </div>
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Tags</h2>
+            </div>
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Tags</h2>
+            </div>
+            <!-- Fifth Section -->
+            <div class="section">
+                <h2 id="5" class="heading">5. HTML Tags</h2>
+            </div>
+
+
+
+        </main>
+    </div>
+    <footer>
+        <div class="footercontent smalltext">
+            <p>&#169;Jonathan Griffin. 2016</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
